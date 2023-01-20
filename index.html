@@ -21,13 +21,29 @@
       <p>I am a self-taught artist who specializes in painting and drawing. My work explores themes of nature, emotion, and the human experience. Please take a look around and feel free to contact me with any questions or inquiries.</p>
       <section id="featured-work">
         <h3>Featured Work</h3>
-        <img src="path/to/image1.jpg" alt="Artwork 1">
-        <img src="path/to/image2.jpg" alt="Artwork 2">
-        <img src="path/to/image3.jpg" alt="Artwork 3">
+        <div class="featured-work-images">
+          <a href="path/to/image1.jpg" class="lightbox" data-caption="Artwork 1">
+            <img src="path/to/image1.jpg" alt="Artwork 1">
+          </a>
+          <a href="path/to/image2.jpg" class="lightbox" data-caption="Artwork 2">
+            <img src="path/to/image2.jpg" alt="Artwork 2">
+          </a>
+          <a href="path/to/image3.jpg" class="lightbox" data-caption="Artwork 3">
+            <img src="path/to/image3.jpg" alt="Artwork 3">
+          </a>
+        </div>
       </section>
     </main>
     <footer>
       <p>Copyright © 2021 My Name</p>
     </footer>
+    <div id="lightbox" class="lightbox-hide">
+      <div class="lightbox-content">
+        <img src="" alt="">
+        <div class="lightbox-caption"></div>
+        <a href="#" class="lightbox-close">X</a>
+      </div>
+    </div>
+    <script src="lightbox.js"></script>
   </body>
 </html>
